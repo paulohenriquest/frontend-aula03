@@ -131,9 +131,13 @@ h1 {
 }
 .game {
     width: 49%;
-    border-color: violet;
-    border-style: solid;
     display: inline-block;
+    color: white;
+    margin-top: 35px;
+}
+
+.game h2 {
+    margin-top: 10px;
 }
 
 .direito {
@@ -146,5 +150,91 @@ h1 {
     text-align: center;
     padding: 0px 245px;
 }
+
+.introducao {
+    color: white;
+    margin-top: 160px;
+}
+
+.introducao h2 {
+    color: rgb(116, 67, 207);
+}
+
+.figura {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+.figuras {
+    padding: 0px 300px;
+}
+
+.fig {
+    display: inline-block;
+    width: 33%;
+}
+
+.figuras img{
+    height: 214px;
+    display: inline-block;
+    margin-left: 85px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 20px
+}
+
+.figuras h2 {
+    color: white;
+}
+
+.intro {
+    margin-left: 250px;
+    margin-top: 200px;
+}
+
+.intro h2 {
+    color: rgb(116, 67, 207);
+}
+
+.intro h1 {
+    color: white;
+}
+
+.comentarios {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    margin-top: 125px;
+}
+.comentarios img {
+    width: 30%;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.usuario {
+    color: white;
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+}
+
+.usuario h2, h3 {
+    text-align: left;
+    display: inline-block;
+}
+
+.usuario p {
+    text-align: left;
+}
+
+.psub {
+    font-size: 10px;
+    color: gray !important;
+}
+
+
 
 
