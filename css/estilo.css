@@ -168,25 +168,42 @@ h1 {
 }
 
 .figuras {
-    padding: 0px 300px;
+    padding: 30px 300px;
 }
 
 .fig {
     display: inline-block;
-    width: 33%;
+    width: 30%;
+}
+
+.fig i {
+    float: right;
+    font-size: 35px;
+    color: rgb(185, 197, 18);
+    margin-left: 25px;
 }
 
 .figuras img{
     height: 214px;
     display: inline-block;
-    margin-left: 85px;
-    margin-top: 25px;
+    /* margin-left: 85px; */
+    /* margin-top: 25px; */
     margin-left: 20px;
     border-radius: 20px
 }
 
 .figuras h2 {
     color: white;
+    text-align: left;
+    margin-left: 10px;
+    display: inline-block;
+    
+}
+
+.figuras p {
+    text-align: left;
+    margin-left: 35px;
+    color: gray;
 }
 
 .intro {
@@ -196,10 +213,13 @@ h1 {
 
 .intro h2 {
     color: rgb(116, 67, 207);
+    
 }
+
 
 .intro h1 {
     color: white;
+    display: inline-block;
 }
 
 .comentarios {
@@ -209,7 +229,7 @@ h1 {
     margin-top: 125px;
 }
 .comentarios img {
-    width: 30%;
+    width: 15%;
     display: inline-block;
     border-radius: 50%;
 }
@@ -230,11 +250,43 @@ h1 {
     text-align: left;
 }
 
+.usuario i {
+    color: rgb(185, 156, 24);
+    font-size: 13px;
+}
+
+.estrelas {
+    float: right;
+    margin-right: 40px;
+    margin-top: 25px
+}
+
 .psub {
     font-size: 10px;
     color: gray !important;
 }
 
+.see {
+    color: rgb(116, 67, 207);
+    margin-top: 80px;
+}
+
+i {
+    color: rgb(116, 67, 207);
+    font-size: 40px;
+}
+
+.nave i {
+    color: red;
+}
+
+.cor i {
+    color: darkgreen;
+}
+
+.cor1 i {
+    color: yellow;
+}
 
 
 
