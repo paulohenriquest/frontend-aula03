@@ -346,4 +346,37 @@ i {
     margin-bottom: 100px;
 }
 
+.rodapes {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
 
+.rodesquerda {
+    color: white !important;
+    text-align: left;
+    padding: 10px;
+    width: 30%;
+    margin-left: 180px;
+}
+
+.icons i {
+    color: rgb(172, 165, 165);
+    margin: 25px;
+    font-size: 25px;
+
+}
+
+.rodireita {
+    color: white;
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+    justify-content: left;
+    width: 70%;
+    line-height: 25px;
+}
+.rod {
+    margin: 0px 50px;
+}
