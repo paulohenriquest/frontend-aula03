@@ -50,41 +50,126 @@ body {
 }
 
 .texto {
-    margin-top: 25%;
+    margin-top: 15%;
     color: white;
-    margin-left: 350px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
-h1 {
-    font-size: 40px;
-    font-weight: 800;
+.precos {
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+    justify-content: center;
 }
 
-p {
-    margin-top: 10px;
-    line-height: 20px;
+.sub1 {
+    background: rgb(127, 231, 162);
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+    justify-content: center;
+    height: 530px;
+    border-radius: 25px;
 }
 
-.start {
-    margin-top: 10px;
-    background: blue;
-    border-radius: 6px;
-    padding: 15px 20px;
-    color: white;
-    border: none;
+.sub2 {
+    background: rgb(38, 114, 177);
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+    justify-content: center;
+    margin-left: 20px;
+    height: 530px;
+    border-radius: 25px;
 }
 
-img {
-    height: 450px;
-    height: 450px;
-    margin-left: 47%;
-    margin-top: -360px;
+.sub3 {
+
+    display: flex;
+    align-items: baseline;
+    align-content: center;
+    justify-content: center;
+    margin-left: 20px;
+    background-color: rgb(231, 162, 35);
+    height: 530px;
+    border-radius: 25px;
 }
 
-.ativo {
-    background: blue;
-    padding: 13px;
-    border-radius: 5px;
+.precob {
+    background: white;
+    height: 420px;
+    width: 250px;
+    margin-top: 90px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px;
 }
+
+.precob h1 {
+    color: rgb(127, 231, 162);
+}
+.precom {
+    background: white;
+    height: 420px;
+    width: 250px;
+    margin-top: 90px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.precom h1 {
+    color: rgb(38, 114, 177);
+}
+
+.precov {
+    background-color: white;
+    height: 420px;
+    width: 250px;
+    margin-top: 90px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.precov h1 {
+    color: rgb(231, 162, 35);
+}
+
+.comprar1 {
+    width: 85px;
+    height: 35px;
+    background: rgb(127, 231, 162);
+    border-radius: 8px;
+}
+
+.comprar2 {
+    width: 85px;
+    height: 35px;
+    background: rgb(38, 114, 177);
+    border-radius: 8px;
+}
+
+.comprar3 {
+    width: 85px;
+    height: 35px;
+    background-color: rgb(231, 162, 35);
+    border-radius: 8px;
+}
+
+.icon1 {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    position: absolute;
+}
+
+.precob i {
+    text-align: left;
+}
+
+
 
 

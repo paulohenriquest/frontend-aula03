@@ -380,3 +380,7 @@ i {
 .rod {
     margin: 0px 50px;
 }
+
+.rod h1 {
+    margin-bottom: 20px;
+}
