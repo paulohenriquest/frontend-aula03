@@ -49,42 +49,94 @@ body {
 
 }
 
-.texto {
-    margin-top: 25%;
+.titulo {
     color: white;
-    margin-left: 350px;
+    margin-left: 385px;
+    margin-bottom: 10px;
+    font-weight: 600;
 }
 
-h1 {
-    font-size: 40px;
-    font-weight: 800;
+.geral {
+    margin-top: 10%;
 }
 
-p {
-    margin-top: 10px;
-    line-height: 20px;
+.contato {
+    display: flex;
+    margin: 0 auto;
+    width: 60%;
+    height: 450px;
 }
 
-.start {
-    margin-top: 10px;
-    background: blue;
-    border-radius: 6px;
-    padding: 15px 20px;
+.geralesquerda {
     color: white;
+    width: 30%;
+    padding: 20px;
+    line-height: 30px;
+    background: rgb(63, 63, 62);
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+.esquerda h1 {
+    font-size: 20px;
+}
+
+.esquerda p {
+    font-size: 15px;
+}
+
+.esquerdap {
+    margin-top: 20px;
+}
+
+.esquerda i {
+    font-size: 20px;
+    margin-right: 5px;
+    color: white;
+}
+
+.direita {
+    width: 70%;
+    background: rgb(217, 231, 243);
+    padding: 27px;
+    line-height: 30px;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.nomes {
+    display: flex;
+}
+
+.nomes input {
+    padding: 10px;
+    width: 340px;
+    display: flex;
+    border-radius: 10px;
     border: none;
 }
 
-img {
-    height: 450px;
-    height: 450px;
-    margin-left: 47%;
-    margin-top: -360px;
+.org {
+    padding: 5px;
 }
 
-.ativo {
-    background: blue;
-    padding: 13px;
-    border-radius: 5px;
+.org textarea {
+    width: 294%;
+    height: 140px;
+    border-radius: 10px;
+    border: none;
+
+}
+
+.enviar {
+    text-align: center;
+    width: 99%;
+    padding: 10px;
+    margin-left: 1px;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    background: rgb(63, 63, 62);
+    border: none;
 }
 
 
