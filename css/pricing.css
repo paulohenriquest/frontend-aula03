@@ -175,7 +175,37 @@ body {
     align-items: center;
     border-radius: 50px;
     margin-top: 20px;
-    color: rgb(127, 231, 162);;
+    color: rgb(127, 231, 162);
+}
+
+.icon2 {
+    width: 90px;
+    height: 90px;
+    background: white;
+    position: absolute;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: rgb(38, 114, 177);
+}
+
+.icon3 {
+    width: 90px;
+    height: 90px;
+    background: white;
+    position: absolute;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin-top: 20px;
+    color: rgb(231, 162, 35);
 }
 
 .precob i {

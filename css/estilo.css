@@ -17,6 +17,12 @@ body {
     margin-left: 300px;
     font-size: 25px;
     font-weight: 800;
+    
+}
+
+.marca:hover {
+    transition: 0.7s all;
+    color: red;
 }
 
 .cabecalho {
@@ -38,6 +44,19 @@ body {
 
 .menu {
     margin-right: 200px;
+}
+
+.m li {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.m li:hover {
+    background: red;
+}
+
+.ativo:hover {
+    background: rgb(185, 156, 24) !important;
 }
 
 .menu li {
@@ -72,6 +91,10 @@ h1 {
     padding: 15px 20px;
     color: white;
     border: none;
+}
+
+.start:hover {
+    background: rgb(185, 156, 24) !important;
 }
 
 .imagem1 img {
@@ -136,6 +159,50 @@ h1 {
     margin-top: 35px;
 }
 
+.game1 i {
+    padding: 10px;
+    color: rgb(116, 67, 207);
+    background: rgb(194, 162, 255);
+    border-radius: 10px;
+}
+
+.game1 i:hover {
+    background: rgb(21, 2, 54);
+}
+
+.game2 i {
+    padding: 10px;
+    color: red;
+    background: rgb(253, 161, 161);
+    border-radius: 10px;
+}
+
+.game2 i:hover {
+    background: rgb(48, 2, 2);
+}
+
+.game3 i {
+    padding: 10px;
+    color: darkgreen;
+    background: rgb(108, 161, 108);
+    border-radius: 10px;
+}
+
+.game3 i:hover {
+    background: rgb(1, 37, 1);
+}
+
+.game4 i {
+    padding: 10px;
+    color: yellow;
+    background: rgb(238, 238, 191);
+    border-radius: 10px;
+}
+
+.game4 i:hover {
+    background: rgb(44, 44, 2);
+}
+
 .game h2 {
     margin-top: 10px;
 }
@@ -169,12 +236,18 @@ h1 {
 }
 
 .figuras {
-    padding: 30px 300px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    padding: 300px;
+    margin-top: -270px;
 }
 
 .fig {
     display: inline-block;
     width: 30%;
+    z-index: 1;
 }
 
 .fig i {
@@ -182,6 +255,20 @@ h1 {
     font-size: 35px;
     color: rgb(185, 197, 18);
     margin-left: 25px;
+}
+
+.fig i:hover {
+    color: rgb(75, 75, 4);
+}
+
+
+.fig:hover {
+    z-index: 10;
+}
+
+.fig img:hover {
+    width: 150%;
+    height: 150%;
 }
 
 .figuras img{
@@ -228,6 +315,10 @@ h1 {
     text-align: right;
     margin-left: 700px;
     color: rgb(185, 197, 18);
+}
+
+.intro i:hover {
+    color: rgb(50, 53, 4);
 }
 
 .comentarios {
@@ -361,11 +452,30 @@ i {
     margin-left: 180px;
 }
 
+.icons {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: left;
+    margin-left: -25px;
+}
+
 .icons i {
     color: rgb(172, 165, 165);
     margin: 25px;
     font-size: 25px;
+}
 
+.icons1 i:hover {
+    color: blue;
+}
+
+.icons2 i:hover {
+    color: rgb(89, 171, 248);
+}
+
+.icons3 i:hover {
+    color: rgb(248, 33, 33);
 }
 
 .rodireita {
