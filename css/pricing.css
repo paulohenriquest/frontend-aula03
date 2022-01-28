@@ -208,9 +208,33 @@ body {
     color: rgb(231, 162, 35);
 }
 
-.precob i {
-    text-align: left;
+.precob {
+    margin-top: 65px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
+
+.precob p {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.precobb {
+    margin-top: 50px;
+}
+
+.v i {
+    color: rgb(5, 197, 31);
+}
+
+.x i {
+    color: red;
+}
+
 
 
 
