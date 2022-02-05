@@ -577,11 +577,132 @@ i {
 
     .figura {
         margin-top: 40px;
+        font-size: 0.5rem;
+    }
+
+    .figura h1 {
+        margin-bottom: 15px;
     }
 
     .figuras {
         margin: 0;
         padding: 0;
+    }
+
+
+    .fig img {
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+
+    .fig i {
+        font-size: 15px
+    }
+
+    .fig h2 {
+        font-size: 11px;
+    }
+
+    .fig p {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .intro {
+        margin: auto;
+        text-align: left;
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .intro i {
+        margin: 0 auto;
+    }
+
+    .usuario h2 {
+        font-size: 11px;
+    }
+
+    .usuario p {
+        font-size: 0.6rem;
+        width: 120%;
+    }
+
+    .main-comentarios {
+        padding: 20px;
+    }
+
+    .owl-carousel .owl-item img {
+        width: 60px;
+    }
+
+    .estrelas {
+        display: flex;
+        width: 25%;
+        margin-bottom: 10px;
+    }
+
+    .see h2 {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .team {
+        margin: auto;
+    }
+
+    .team1 {
+        margin: auto;
+        text-align: left;
+        width: 250px;
+        margin-top: 30px;
+    }
+
+    .time img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .teamimg {
+        margin-left: -90px;
+    }
+
+    .teamimg h1 {
+        font-size: 11px;
+    }
+
+    .teamimg p {
+        font-size: 0.6rem;
+    }
+
+    .rodesquerda {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .rod {
+        margin: auto;
+        line-height: normal;
+    }
+
+    .rodapes h1 {
+        font-size: 11px;
+    }
+
+    .icons i {
+        font-size: 11px;
+        margin: auto;
+        padding: 5px 3px;
+        margin-left: 10px;
+    }
+
+    .rodapes p {
+        font-size: 4px;
+    }
+
+    .icons {
+        margin-left: 15px;
     }
 
 }
