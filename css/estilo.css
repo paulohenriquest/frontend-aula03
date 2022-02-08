@@ -501,23 +501,80 @@ i {
     margin-bottom: 20px;
 }
 
+@media (max-width: 1280px) {
+    body {
+        width: 100vh;
+    }
+
+    .marca {
+        margin: auto;
+        margin-left: 150px
+    }
+
+    .texto {
+        margin-left: 150px;
+    }
+
+    .final {
+        margin-top: 50px;
+    }
+
+    .figuras {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        padding: 135px;
+        margin-top: -95px;
+        margin-left: -63px;
+    }
+
+    .fig {
+        width: auto;
+    }
+
+    .team {
+        width: auto;
+    }
+
+    .rodesquerda {
+        width: auto;
+        margin: auto;
+    }
+
+}
+
 @media (max-width: 798px) {
+    
+    body {
+        width: auto;
+    }
     .marca {
         text-align: center;
         width: 100%;
         margin: 0 auto;
     }
+
+    .corpo {
+        height: auto;
+        margin: 0;
+    }
+    
     
     .menu {
         display: flex;
         align-items: center;
         align-content: center;
         justify-content: center;
-        font-size: 1.2rem;
+        font-size: 10px;
         width: 100%;
-        margin: 14px;
+        margin: 12px;
         /* padding: 15px; */
         text-align: center;
+    }
+
+    .menu li {
+        margin-left: -20px;
     }
 
     .texto {
@@ -526,11 +583,13 @@ i {
     }
 
     .imagem1 img {
-        margin: 0 auto;
-        width: 390px;
-        height: 320px;
+        display: flex;
+        width: 80%;
+        height: 80%;
+        margin: auto;
     }
 
+    
     .texto2 {
         margin: 0 auto;
     }
@@ -665,7 +724,8 @@ i {
     }
 
     .teamimg {
-        margin-left: -90px;
+        margin: auto;
+        justify-content: center;
     }
 
     .teamimg h1 {
@@ -706,3 +766,9 @@ i {
     }
 
 }
+
+
+
+
+    
+
