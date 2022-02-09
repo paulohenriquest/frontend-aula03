@@ -503,7 +503,7 @@ i {
 
 @media (max-width: 1280px) {
     body {
-        width: 100vh;
+        width: 95vh;
     }
 
     .marca {
@@ -558,8 +558,8 @@ i {
     .corpo {
         height: auto;
         margin: 0;
+        width: 100%;
     }
-    
     
     .menu {
         display: flex;

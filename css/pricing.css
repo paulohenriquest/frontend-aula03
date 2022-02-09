@@ -235,6 +235,97 @@ body {
     color: red;
 }
 
+@media (max-width: 1280px) {
+    .cabecalho {
+        width: 100vh;
+        display: flex;
+    }
+
+    .marca {
+        margin: -15px 20px;
+    }
+
+    .menu {
+        display: flex;
+        font-size: 12px;
+    }
+
+    .precos {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 100vh;
+        margin: -320px;
+        margin-top: 10px;
+    }
+
+    .sub1 {
+        margin-bottom: 35px;
+    }
+
+    .sub2, .sub3 {
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .texto {
+        margin-left: -290px
+    }
+
+}
+
+@media (max-width: 798px) {
+    
+    body {
+        width: 100vh;
+    }
+    .cabecalho {
+        width: 100vh;
+        display: flex;
+    }
+
+    .marca {
+        margin: -12px 20px;
+        font-size: 18px;
+    }
+
+    .menu {
+        margin: auto;
+        display: flex;
+        font-size: 10px;
+    }
+
+    .menu li {
+        margin: 0px 10px;
+    }
+
+    .precos {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 100vh;
+        margin: -145px;
+        margin-top: 10px;
+    }
+
+    .sub1 {
+        margin-bottom: 35px;
+    }
+
+    .sub2, .sub3 {
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .texto {
+        margin-left: -290px
+    }
+}
+
+
+
 
 
 
