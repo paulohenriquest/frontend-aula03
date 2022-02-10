@@ -236,41 +236,8 @@ body {
 }
 
 @media (max-width: 1280px) {
-    .cabecalho {
-        width: 100vh;
-        display: flex;
-    }
-
     .marca {
-        margin: -15px 20px;
-    }
-
-    .menu {
-        display: flex;
-        font-size: 12px;
-    }
-
-    .precos {
-        flex-direction: column;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        width: 100vh;
-        margin: -320px;
-        margin-top: 10px;
-    }
-
-    .sub1 {
-        margin-bottom: 35px;
-    }
-
-    .sub2, .sub3 {
-        margin: auto;
-        margin-bottom: 35px;
-    }
-
-    .texto {
-        margin-left: -290px
+        margin: -12px 20px;
     }
 
 }
@@ -278,10 +245,9 @@ body {
 @media (max-width: 798px) {
     
     body {
-        width: 100vh;
+        /* width: 100vh; */
     }
     .cabecalho {
-        width: 100vh;
         display: flex;
     }
 
@@ -302,25 +268,28 @@ body {
 
     .precos {
         flex-direction: column;
-        align-items: center;
-        align-content: center;
-        justify-content: center;
-        width: 100vh;
-        margin: -145px;
-        margin-top: 10px;
+        text-align: center;
+        /* padding: 40px; */
+        /* font-size: 10px; */
+        /* margin-left: 65px; */
+        display: grid;
     }
 
     .sub1 {
         margin-bottom: 35px;
+        margin-left: auto;
     }
 
     .sub2, .sub3 {
-        margin: auto;
         margin-bottom: 35px;
+        margin-left: auto;
     }
 
     .texto {
-        margin-left: -290px
+        text-align: center;
+        margin: 0 auto;
+        padding: 40px;
+        font-size: 10px;
     }
 }
 

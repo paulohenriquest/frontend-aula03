@@ -140,3 +140,61 @@ body {
 }
 
 
+@media (max-width: 798px) {
+    .menu {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin: auto;
+        font-size: 10px;
+    }
+
+    .marca {
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        margin:auto;
+    }
+
+    .menu li {
+        margin: 10px;
+    }
+
+    .titulo {
+        margin: auto;
+        text-align: center;
+    }
+
+    .contato {
+        height: auto;
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .geralesquerda {
+        width: auto;
+        border-radius: 0%;
+    }
+
+    .direita {
+        width: auto;
+        border-radius: 0%;
+    }
+
+    .nomes {
+        margin: auto;
+        display: block;
+    }
+
+    .nomes input {
+        width: 210px;
+    }
+
+    .org textarea {
+        width: 230px;
+    }
+
+}
+
+
